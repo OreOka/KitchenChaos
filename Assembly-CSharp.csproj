@@ -58,23 +58,26 @@
     <Analyzer Include="C:\Program Files\2022.2.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Assets\Scripts\CuttingCounterVisual.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\ContainerCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Scriptables\KitchenObjectSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\KitchenObject.cs" />
     <Compile Include="Assets\_Assets\Scripts\PlayerAnimator.cs" />
-    <Compile Include="Assets\_Assets\Scripts\CuttingRecipeSO.cs" />
-    <Compile Include="Assets\_Assets\Scripts\ContainerCounter.cs" />
-    <Compile Include="Assets\_Assets\Scripts\BaseCounter.cs" />
-    <Compile Include="Assets\_Assets\Scripts\KitchenObjectSO.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\BaseCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\StoveCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\CuttingCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\CuttingCounterVisual.cs" />
     <Compile Include="Assets\_Assets\Scripts\LookAtCamera.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\TrashCounter.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\_Assets\Scripts\ProgressBarUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\_Assets\Scripts\ContainerCounterVisual.cs" />
     <Compile Include="Assets\_Assets\Scripts\IKitchenObjectParent.cs" />
     <Compile Include="Assets\PlayerInputActions.cs" />
-    <Compile Include="Assets\_Assets\Scripts\CuttingCounter.cs" />
-    <Compile Include="Assets\_Assets\Scripts\ClearCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\ClearCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\ContainerCounterVisual.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Scriptables\CuttingRecipeSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\SelectedCounterVisual.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Scriptables\FryingRecipeSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\GameInput.cs" />
   </ItemGroup>
   <ItemGroup>
