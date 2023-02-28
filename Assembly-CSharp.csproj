@@ -58,6 +58,8 @@
     <Analyzer Include="C:\Program Files\2022.2.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Assets\Scripts\ResetStaticDataManager.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\MainMenuUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\ContainerCounter.cs" />
     <Compile Include="Assets\_Assets\Scripts\UI\DeliveryManagerUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Scriptables\KitchenObjectSO.cs" />
@@ -79,18 +81,29 @@
     <Compile Include="Assets\_Assets\Scripts\Counters\TrashCounter.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\_Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\_Assets\Scripts\StoveCounterSound.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\PlatesCounterVisual.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Scriptables\AudioClipRefSO.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\GamePlayingClockUI.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Loader.cs" />
     <Compile Include="Assets\_Assets\Scripts\IKitchenObjectParent.cs" />
     <Compile Include="Assets\PlayerInputActions.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\ClearCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\LoaderCallback.cs" />
+    <Compile Include="Assets\_Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\GameOverUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\ContainerCounterVisual.cs" />
     <Compile Include="Assets\_Assets\Scripts\Scriptables\CuttingRecipeSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\Scriptables\RecipeListSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\DeliveryManager.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\PlatesCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\GameStartCountdownUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Scriptables\FryingRecipeSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\SelectedCounterVisual.cs" />
     <Compile Include="Assets\_Assets\Scripts\UI\PlateIconSingleUI.cs" />
+    <Compile Include="Assets\_Assets\Scripts\PlayerSounds.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\GamePauseUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\GameInput.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\StoveCounterVisual.cs" />
     <Compile Include="Assets\_Assets\Scripts\UI\DeliveryManagerSingleUI.cs" />
