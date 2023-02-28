@@ -59,29 +59,65 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Assets\Scripts\Counters\ContainerCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\DeliveryManagerUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Scriptables\KitchenObjectSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\KitchenObject.cs" />
     <Compile Include="Assets\_Assets\Scripts\PlayerAnimator.cs" />
+    <Compile Include="Assets\_Assets\Scripts\PlateCompleteVisual.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\BaseCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Scriptables\BurningRecipeSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\StoveCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\PlateIconsUI.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\DeliveryCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\IHasProgress.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\CuttingCounter.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Scriptables\RecipeSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\CuttingCounterVisual.cs" />
+    <Compile Include="Assets\_Assets\Scripts\PlateKitchenObject.cs" />
     <Compile Include="Assets\_Assets\Scripts\LookAtCamera.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\ProgressBarUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\TrashCounter.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\_Assets\Scripts\ProgressBarUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\PlatesCounterVisual.cs" />
     <Compile Include="Assets\_Assets\Scripts\IKitchenObjectParent.cs" />
     <Compile Include="Assets\PlayerInputActions.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\ClearCounter.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\ContainerCounterVisual.cs" />
     <Compile Include="Assets\_Assets\Scripts\Scriptables\CuttingRecipeSO.cs" />
-    <Compile Include="Assets\_Assets\Scripts\SelectedCounterVisual.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Scriptables\RecipeListSO.cs" />
+    <Compile Include="Assets\_Assets\Scripts\DeliveryManager.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\PlatesCounter.cs" />
     <Compile Include="Assets\_Assets\Scripts\Scriptables\FryingRecipeSO.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\SelectedCounterVisual.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\PlateIconSingleUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\GameInput.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Counters\StoveCounterVisual.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\DeliveryManagerSingleUI.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\_Assets\KitchenChaos_COMPLETE_PROJECT.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -761,6 +797,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
