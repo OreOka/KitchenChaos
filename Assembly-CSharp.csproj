@@ -64,6 +64,7 @@
     <Compile Include="Assets\_Assets\Scripts\UI\DeliveryManagerUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Scriptables\KitchenObjectSO.cs" />
     <Compile Include="Assets\_Assets\Scripts\KitchenObject.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\OptionsUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\PlayerAnimator.cs" />
     <Compile Include="Assets\_Assets\Scripts\PlateCompleteVisual.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\BaseCounter.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\_Assets\Scripts\UI\ProgressBarUI.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\TrashCounter.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\_Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\_Assets\Scripts\Player.cs" />
     <Compile Include="Assets\_Assets\Scripts\StoveCounterSound.cs" />
     <Compile Include="Assets\_Assets\Scripts\Counters\PlatesCounterVisual.cs" />

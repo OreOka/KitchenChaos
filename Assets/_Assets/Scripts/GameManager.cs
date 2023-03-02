@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     private float countdownToStartTimer = 3f;
     private float gamePlayingTimer;
     private float gamePlayingTimerMax = 10f;
-    private bool isGamePaused;
+    private bool isGamePaused = false;
 
 
     private void Awake()
@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
 
     private void GameInput_OnPauseAction(object sender, EventArgs e)
     {
-        ToggleGame();
+        ToggleGamePause();
     }
 
     private void Update()
@@ -73,7 +73,6 @@ public class GameManager : MonoBehaviour
             case State.GameOver:
                 break;
         }
-        Debug.Log(state);
 
     }
 
@@ -101,7 +100,7 @@ public class GameManager : MonoBehaviour
         return 1 - gamePlayingTimer / gamePlayingTimerMax;
     }
 
-    public void ToggleGame()
+    public void ToggleGamePause()
     {
         isGamePaused = !isGamePaused;
         if (isGamePaused)
