@@ -413,6 +413,7 @@
 "Assets/_Assets/Scripts/StoveCounterSound.cs"
 "Assets/_Assets/Scripts/UI/DeliveryManagerSingleUI.cs"
 "Assets/_Assets/Scripts/UI/DeliveryManagerUI.cs"
+"Assets/_Assets/Scripts/UI/DeliveryResultUI.cs"
 "Assets/_Assets/Scripts/UI/GameOverUI.cs"
 "Assets/_Assets/Scripts/UI/GamePauseUI.cs"
 "Assets/_Assets/Scripts/UI/GamePlayingClockUI.cs"
@@ -422,6 +423,9 @@
 "Assets/_Assets/Scripts/UI/PlateIconSingleUI.cs"
 "Assets/_Assets/Scripts/UI/PlateIconsUI.cs"
 "Assets/_Assets/Scripts/UI/ProgressBarUI.cs"
+"Assets/_Assets/Scripts/UI/StoveBurnFlashingBarUI.cs"
+"Assets/_Assets/Scripts/UI/StoveBurningWarningUI.cs"
+"Assets/_Assets/Scripts/UI/TutorialUI.cs"
 -langversion:9.0
 
 /deterministic
